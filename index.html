@@ -3,21 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NxtSite - Showcase Your Best Work</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <div id="main">
-        <nav>
-            <div class="part1">Logo</div>
-            <div class="part2">
-                <h4>Home</h4>
-                <h4>Services</h4>
-                <h4>About Us</h4>
-                <h4>Contect Us</h4>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>NxtSite</h1>
             </div>
-        </nav>
-    </div>
-    <script src="script.js"></script>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Showcase Your Best Work with NxtSite</h2>
+            <p>We help you present your work in the most professional and impactful way.</p>
+            <a href="#services" class="cta">Discover More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Web Design</h3>
+                    <p>Creating visually appealing and user-friendly web designs.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Development</h3>
+                    <p>Building responsive and robust websites.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Marketing</h3>
+                    <p>Promoting your brand through effective digital marketing strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Our Work</h2>
+            <div class="portfolio-items">
+                <!-- Add your portfolio items here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-cards">
+                <!-- Add your testimonials here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Showcase Your Best Work?</h2>
+            <a href="#contact" class="cta">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p>123 Street, City, Country</p>
+                    <p>Email: contact@nxtsite.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <form>
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <p>&copy; 2024 NxtSite. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
